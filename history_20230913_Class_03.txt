@@ -1,0 +1,94 @@
+124a125,217
+>   125  ls -lt
+>   126  history 
+>   127  ls -lt *.txt
+>   128  ls -lt *[!h].txt
+>   129  man ls
+>   130  ls -lt -d -- *[!0-9].txt
+>   131  ls -lt -d -- *[0-9].txt
+>   132  ls -lt -d -- *[!0-9].txt
+>   133  ls
+>   134  rm -d -- *[!0-9].txt
+>   135  ls
+>   136  ls -lt
+>   137  cp history_20230913_Class_02.txt hihi.dat
+>   138  ls
+>   139  ls -lt
+>   140  mkdir DEF
+>   141  pwd
+>   142  ls
+>   143  mv hihi.dat ~/DEF/
+>   144  ls
+>   145  ls -lt DEF/
+>   146  mv DEF/hihi.dat DEF/hihihi.exe
+>   147  ls -lt DEF/
+>   148  ls -lt
+>   149  rmdir DEF/
+>   150  man rmdir
+>   151  man rm
+>   152  rm DEF/
+>   153  rm -r DEF/
+>   154  ls -lt
+>   155  ls
+>   156  whereis ls
+>   157  tpwd
+>   158  tree
+>   159  ls
+>   160  echo $PATH
+>   161  whereis ls
+>   162  ls -lt /bin/ls
+>   163  ls
+>   164  /bin/ls
+>   165  whereis ls
+>   166  ls -lt /bin/ls
+>   167  cat /bin/ls
+>   168  ls -lt /bin/ls
+>   169  cat /bin/ls
+>   170  nano mana_komanda_1.sh
+>   171  ls -lt
+>   172  cat mana_komanda_1.sh 
+>   173  ls -lt
+>   174  ls -lt /bin/ls
+>   175  nano
+>   176  ls -lt  mana_komanda_1.sh 
+>   177  chmod 754 mana_komanda_1.sh 
+>   178  ls -lt  mana_komanda_1.sh 
+>   179  ls
+>   180  pwd
+>   181  ls -lt
+>   182  echo $PATH
+>   183  pwd
+>   184  PATH=$PATH:~
+>   185  echo $PATH
+>   186  mkdir TEST
+>   187  cp mana_komanda_1.sh TEST/
+>   188  ls
+>   189  ls -lt TEST/
+>   190  PATH=$PATH:~/TEST
+>   191  echo $PATH
+>   192  nano TEST/mana_komanda_1.sh 
+>   193  ls
+>   194  whereis mana_komanda_1.sh
+>   195  mana_komanda_1.sh 
+>   196  echo $PATH
+>   197  history 
+>   198  ls -lt
+>   199  cat history_20230913_Class_02.txt 
+>   200  history 
+>   201  history > history_20230913_Class_03.txt 
+>   202  cat history_20230913_Class_02.txt history_20230913_Class_03.txt | sort -u
+>   203  cat history_20230913_Class_02.txt 
+>   204  cat history_20230913_Class_03.txt 
+>   205  cat history_20230913_Class_02.txt history_20230913_Class_03.txt | uniq
+>   206  cat history_20230913_Class_02.txt 
+>   207  cat history_20230913_Class_03.txt 
+>   208  history | sort -u
+>   209  history | sort -u -c
+>   210  cat history_20230913_Class_02.txt history_20230913_Class_03.txt | uniq
+>   211  diff history_20230913_Class_02.txt history_20230913_Class_03.txt 
+>   212  diff history_20230913_Class_02.txt history_20230913_Class_03.txt > history_20230913_Class_03.txt 
+>   213  cat history_20230913_Class_03.txt 
+>   214  ls -lt
+>   215  cat history_20230913_Class_02.txt 
+>   216  cat history_20230913_Class_03.txt 
+>   217  history > history_20230913_Class_03.txt 
