@@ -1,0 +1,124 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  whoami
+    4  pwd
+    5  ls
+    6  man ls
+    7  ls -l
+    8  ls -l -t
+    9  ls -lt
+   10  ls -tl
+   11  echo $0
+   12  sh
+   13  pwd
+   14  ls
+   15  ls --all
+   16  ls -a
+   17  ls
+   18  ls -a
+   19  ls
+   20  ls -a
+   21  ls -la
+   22  pwd
+   23  cd .
+   24  pwd
+   25  cd ..
+   26  pwd
+   27  ls -l
+   28  ls -la
+   29  pwd
+   30  cd .
+   31  pwd
+   32  cd ..
+   33  pwd
+   34  tree
+   35  pwd
+   36  ls
+   37  ls -l
+   38  ls -la
+   39  pwd
+   40  ls -la
+   41  pwd
+   42  cd .
+   43  pwd
+   44  cd ..
+   45  pwd
+   46  cd ~
+   47  pwd
+   48  cd /
+   49  pwd
+   50  cd home/
+   51  cd user/
+   52  cd /
+   53  pwd
+   54  cd /home/user/
+   55  sh
+   56  cd /
+   57  pwd
+   58  cd
+   59  pwd
+   60  who
+   61  ls
+   62  mkdir ABC
+   63  ls -lt
+   64  ls -l ABC/
+   65  ls -la ABC/
+   66  rmdir ABC/
+   67  ls -la ABC/
+   68  echo $&
+   69  echo $?
+   70  ls -la ABC/
+   71  echo $?
+   72  ls
+   73  echo $?
+   74  rmdir ABC/
+   75  echo $?
+   76  ls
+   77  echo $?
+   78  rmdir ABC/
+   79  echo $?
+   80  echo fksrlglrjrw
+   81  echo 12345 > a.txt
+   82  ls -lt
+   83  cat a.txt 
+   84  echo 123456 > a.txt
+   85  ls -lt *.txt 
+   86  echo 1234567 > a.txt
+   87  ls -lt *.txt 
+   88  echo 12345678 > a.txt
+   89  ls -lt *.txt 
+   90  cat a.txt 
+   91  hexdump -C a.txt 
+   92  echo abcdef >> a.txt
+   93  ls -lt *.txt 
+   94  cat a.txt 
+   95  hexdump -C a.txt 
+   96  echo "wlkwqkwq"
+   97  man echo
+   98  echo "wlkwqkwq\a"
+   99  echo -e "wlkwqkwq\a"
+  100  echo "wlkwqkwq\a"
+  101  echo -e "wlkwqkwq\a"
+  102  echo "wlkwqkwq\a"
+  103  echo -e "wlkwqkwq\a"
+  104  echo -e "wlkw\nqkwq\a"
+  105  echo -e "wlkw\n\tqkwq\a"
+  106  echo -e "wlkw\n\tqkwq\a" > b.txt
+  107  ls -lt *.txt 
+  108  cat b.txt 
+  109  hexdump -C b.txt 
+  110  echo -e "123\n\4567\a" > b.txt
+  111  hexdump -C b.txt 
+  112  echo -e "123\n\t4567\a" > b.txt
+  113  hexdump -C b.txt 
+  114  cat  b.txt 
+  115  echo -e "123\n\t4567\a" > b.txt
+  116  touch c.txt
+  117  ls -lt *.txt 
+  118  man touch
+  119  touch -t 202312312359 c.txt
+  120  ls -lt *.txt 
+  121  touch -t 202312312359 a.txt
+  122  ls -lt *.txt 
+  123  history 
+  124  history > history_20230913_Class_02.txt
