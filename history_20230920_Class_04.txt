@@ -1,47 +1,163 @@
-    1  VirtualBox --startvm XP
-    2  quartus
-    3  git --version
-    4  pwd
-    5  ls -lt
-    6  git clone https://github.com/tatusmatrix/RTR105_2023_V02
-    7  ls -lt
-    8  git clone https://github.com/tatusmatrix/RTR105_2023
-    9  git clone https://github.com/tatusmatrix/RTR105
-   10  git clone https://github.com/tatusmatrix
-   11  ls -lt
-   12  rm -rf RTR105
-   13  ls -lt
-   14  ls -lt RTR105_2023_V02/
-   15  pwd
-   16  ls -lt
-   17  git clone https://github.com/tatusmatrix/RTR105_2023_V02
-   18  git clone https://github.com/tatusmatrix/RTR105_2023_V02 RTR105_V1
-   19  ls -lt
-   20  rmdir RTR105_V1
-   21  rm RTR105_V1
-   22  rm -r RTR105_V1
-   23  rm -rf RTR105_V1
-   24  ls -lt
-   25  cd RTR105_2023_V02/
-   26  pwd
-   27  ls -lt
-   28  ls -lta
-   29  cd .git
-   30  ls -lt
-   31  cat config 
-   32  ls -lt
-   33  cat index 
-   34  ls -lt
-   35  cd ..
-   36  pwd
-   37  ls -lt
-   38  nano git-upload
-   39  ls -lt
-   40  cat git-upload 
-   41  chmod 754 git-upload 
-   42  ls -lt
-   43  git-upload
-   44  ./git-upload 
-   45  ls -lt
-   46  history
-   47  history > history_20230920_Class_04.txt
+VirtualBox --startvm XP
+quartus
+whereis python
+history 
+exit
+history 
+exit
+man date
+date +%F
+date +'%Y%m%d'
+date +%F
+date +'%Y%m%d'
+history 
+exit
+cd ..
+ls -lt
+ls -lta
+exit
+git --version
+pwd
+ls -lt
+git clone https://github.com/tatusmatrix/RTR105_2023_V02
+ls -lt
+git clone https://github.com/tatusmatrix/RTR105_2023
+git clone https://github.com/tatusmatrix/RTR105
+git clone https://github.com/tatusmatrix
+ls -lt
+rm -rf RTR105
+ls -lt
+ls -lt RTR105_2023_V02/
+pwd
+ls -lt
+git clone https://github.com/tatusmatrix/RTR105_2023_V02
+git clone https://github.com/tatusmatrix/RTR105_2023_V02 RTR105_V1
+ls -lt
+rmdir RTR105_V1
+rm RTR105_V1
+rm -r RTR105_V1
+rm -rf RTR105_V1
+ls -lt
+cd RTR105_2023_V02/
+pwd
+ls -lt
+ls -lta
+cd .git
+ls -lt
+cat config 
+ls -lt
+cat index 
+ls -lt
+cd ..
+pwd
+ls -lt
+nano git-upload
+ls -lt
+cat git-upload 
+chmod 754 git-upload 
+ls -lt
+git-upload
+./git-upload 
+ls -lt
+history
+history > history_20230920_Class_04.txt
+ls -lt
+./git-upload 
+cd ..
+ls -lt
+rm -rf RTR105_2023_V02/
+ls -lt
+pwd
+ls -lt
+history | grep clone
+git clone https://github.com/tatusmatrix/RTR105_2023_V02
+ls -lt
+cd RTR105_2023_V02/
+ls -lt
+cat git-upload 
+nano git-upload 
+uname -a
+echo $0
+nano git-upload 
+nano history_test.sh
+chmod 754 history_test.sh 
+ls -lt
+cat history_test.sh 
+./history_test.sh 
+man date
+ls -lt
+date
+man date
+nano history_test.sh
+nano git-upload 
+nano history_test.sh
+./history_test.sh 
+nano history_test.sh
+./history_test.sh 
+nano history_test.sh
+./history_test.sh 
+nano history_test.sh
+./history_test.sh 
+ls -lt
+nano history_test.sh
+ls -lt
+./history_test.sh 
+ls -lt
+nano history_test.sh
+./history_test.sh 
+nano history_test.sh
+./history_test.sh 
+nano history_test.sh
+history 
+nano history_test.sh
+./history_test.sh 04
+ls -lt
+./history_test.sh 04
+ls -lt
+nano history_test.sh
+./history_test.sh 04
+nano history_test.sh
+ls -lt
+nano history_test.sh
+ls -lt
+rm history_20230920*
+ls -lt
+./history_test.sh 04
+ls -lt
+nano history_test.sh
+history 
+nano history_test.sh
+./history_test.sh 04
+ls -lta
+ls -lta ../
+history 
+ls -lta ../
+ls -lt .cache/
+ls -lt ../.cache/
+history 
+ls -lta ../
+history 
+ls -lt ../.bash_history 
+cat ../.bash_history 
+history 
+ls -lt ../.bash_history 
+history -a
+ls -lt ../.bash_history 
+history 
+ls -lt ../.bash_history 
+nano history_test.sh 
+ls -lt
+rm history_20230920_Class_04.txt 
+ls -lt
+./history_test.sh 04
+ls -lt
+cat history_20230920_Class_04.txt 
+ls -lt
+nano git-upload 
+ls -lt
+mv history_test.sh history
+ls -lt
+rm history_20230920_Class_04.txt 
+ls -lt
+nano history
+history -a
