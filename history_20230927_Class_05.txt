@@ -1,0 +1,125 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/tatusmatrix/RTR105_2023_V02
+ls -lt
+cd RTR105_2023_V02/
+pwd
+ls -lt
+mkdir Class_05
+cd Class_05/
+pwd
+nano first.c
+ls -lt
+cat first.c 
+gcc --version
+gcc first.c 
+ls -lt
+cat first.c 
+cat a.out
+ls -lt
+history 
+ls -lt
+gcc first.c 
+ls -lt
+a.out
+./a.out 
+echo $?
+nano first.c 
+ls -lt
+gcc first.c first.out
+gcc first.c -o first.out
+ls -lt
+./first.out 
+echo $?
+ls -lt
+gcc first.c
+ls -lt
+nano first.c 
+gcc first.c
+ls -lt
+diff a.out first.out 
+ls -lt
+diff a.out first.out 
+rm *.out
+ls -lt
+nano first.c 
+ls -lt
+gcc first.c 
+ls -lt
+nano first.c 
+gcc first.c 
+nano first.c 
+gcc first.c 
+ls -lt
+./a.out 
+nano first.c 
+gcc first.c 
+ls -lt
+./a.out 
+cat first.c 
+ls -lt
+cp first.c second.c
+ls -lt
+nano second.c 
+ls -lt
+gcc second.c 
+nano second.c 
+ls -lt
+nano second.c 
+ls -lt
+gcc second.c 
+ls -lt
+./a.out 
+cat second.c 
+man echo
+nano second.c 
+cat second.c 
+gcc second.c 
+ls -lt
+./a.out 
+ls -lt
+./a.out 
+ls -lt
+nano second.c 
+y
+gcc -E second.c 
+
+ls -lt
+cat second.i
+ls -lt
+gcc second.c -o second_from_c.out
+gcc second.i -o second_from_i.out
+ls -lt
+diff second_from_c.out second_from_i.out 
+gcc -S second.c
+ls -lt
+cat second.s
+ls -lt
+gcc second.s -o second_from_s.out
+ls -lt
+diff second_from_c.out second_from_s.out 
+ls -lt
+gcc -c second.c
+ls -lt
+cat second.o
+ls -lt
+gcc second.o -o second_from_o.out
+diff second_from_c.out second_from_o.out 
+ls -lt
+gcc –Wall –save-temps second.c
+gcc -Wall -save-temps second.c
+ls -lt
+gcc --help
+ls -lt
+nano second.i
+ls -lt
+nano second.s
+man ld
+ls -lt
+cd ..
+pwd
+ls -lta
+nano .gitignore
+ls -lt
+nano history
+history -a
