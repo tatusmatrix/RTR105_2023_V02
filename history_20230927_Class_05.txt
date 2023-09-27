@@ -123,3 +123,21 @@ nano .gitignore
 ls -lt
 nano history
 history -a
+wget https://raw.githubusercontent.com/tatusmatrix/RTR105_2023_V02/main/history
+ls -lt
+rm history.1 
+exit
+ls
+ls -lt
+echo $?
+cd ..
+ls -lt
+exit
+nano history
+nano git-upload 
+ls -lt
+./git-upload 05 a
+ls -lt
+nano git-upload 
+ls -l
+history -a
