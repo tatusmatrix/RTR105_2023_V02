@@ -1,0 +1,86 @@
+VirtualBox --startvm XP
+quartus
+exit
+nano printf_test.c
+ls -lt
+nano printf_test.c
+gcc printf_test.c
+ls -lt
+./a.out 
+nano printf_test.c
+./a.out 
+nano printf_test.c
+ls -lt
+history 
+ls
+cd `mktemp -d`
+touch main.c
+code .
+mkdir build
+ls
+gcc main.c -o build/main
+cd build
+ls
+./main 
+cd ..
+gcc main.c -c -o build/main.o
+cd build/
+ls
+clear
+ls
+ldd main
+ld /lib/x86_64-linux-gnu/libc.so.6 /lib64/ld-linux-x86-64.so.2 main.o 
+ls
+./a.out 
+clear
+objdump -S main.o
+objdump -S a.out 
+clear
+objdump -S main
+objdump -S a.out 
+clear
+ld /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/lib/x86_64-linux-gnu/crtn.o /usr/lib/x86_64-linux-gnu/libc.so main.o -dynamic-linker /lib64/ld-linux-x86-64.so.2 
+clear
+ls
+./a.out 
+ldd a.out 
+ld /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/lib/x86_64-linux-gnu/crtn.o /usr/lib/x86_64-linux-gnu/libc.so main.o -dynamic-linker /lib64/ld-linux-x86-64.so.2 
+/lib64/ld-linux-x86-64.so.2 --help
+/lib64/ld-linux-x86-64.so.2 --version
+clear
+ld /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/lib/x86_64-linux-gnu/crtn.o /usr/lib/x86_64-linux-gnu/libc.so main.o -dynamic-linker /lib64/ld-linux-x86-64.so.2 
+objdump -S a.out 
+diff main a.out 
+history -a
+history 
+ls -lt
+objdump -S main
+objdump -S main > main.txt
+objdump -S a.out > out.txt
+ls -lt
+mv out.txt a.s
+mv main.txt main.s
+ls -lt
+nano a.s 
+gcc a.s
+nano a.s 
+ls -lt
+mv ./*.s ~/RTR105_2023_V02/Class_07/
+ls -lt
+exit
+git clone https://github.com/tatusmatrix/RTR105_2023_V02
+git clone https://github.com/tatusmatrix/RTR105_2023_V01
+ls -lt
+cd RTR105_2023_V02/
+ls -lt
+mkdir Class_07
+cd Class_07
+cp ../../RTR105_2023_V01/Class_07/tasks_Class_07.txt ./
+ls -lt
+nano tasks_Class_07.txt 
+history 
+cat ~/.bash_history 
+ls -lt
+cd ..
+ls -lta
+history -a
