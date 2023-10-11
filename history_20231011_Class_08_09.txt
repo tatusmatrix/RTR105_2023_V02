@@ -58,3 +58,41 @@ nano operations.c
 cd ..
 ls -lt
 history -a
+./git-upload 08_09 a
+cd Class_08_09/
+ls -lt
+cp operations.c if.c
+nano if.c
+gcc if.c
+./a.out 
+nano if.c
+gcc if.c
+./a.out 
+nano if.c
+./a.out 
+nano if.c
+./a.out 
+cp if.c while.c
+nano while.c 
+gcc while.c 
+./a.out 
+nano while.c 
+gcc while.c 
+./a.out 
+nano while.c 
+gcc while.c 
+./a.out 
+nano while.c 
+gcc while.c 
+./a.out 
+nano while.c 
+cp while.c  for.c
+nano  for.c
+gcc  for.c
+./a.out 
+nano  for.c
+gcc  for.c
+./a.out 
+nano  for.c
+cd ..
+history -a
