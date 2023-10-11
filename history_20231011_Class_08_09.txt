@@ -1,0 +1,60 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/tatusmatrix/RTR105_2023_V02
+cd RTR105_2023_V02/
+ls -lt
+mkdir Class_08_09
+cd Class_08_09/
+nano variables.c
+gcc variables.c
+ls -lt
+./a.out 
+nano variables.c
+gcc variables.c
+./a.out 
+nano variables.c
+gcc variables.c
+./a.out 
+gcc variables.c
+./a.out 
+nano variables.c
+gcc variables.c
+./a.out 
+nano variables.c
+fg
+jobs
+fg
+man fg
+fg
+gcc variables.c
+./a.out 
+nano variables.c
+vp variables.c operations.c
+cp variables.c operations.c
+ operations.c 
+nano operations.c 
+gcc operations.c 
+./a.out 
+nano operations.c 
+gcc operations.c 
+./a.out 
+nano operations.c 
+gcc operations.c 
+./a.out 
+nano operations.c 
+gcc operations.c 
+./a.out 
+nano operations.c 
+gcc operations.c 
+./a.out 
+nano operations.c 
+gcc operations.c 
+nano operations.c 
+gcc operations.c 
+nano operations.c 
+gcc operations.c 
+./a.out 
+nano operations.c 
+cd ..
+ls -lt
+history -a
