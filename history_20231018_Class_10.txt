@@ -1,0 +1,83 @@
+VirtualBox --startvm XP
+quartus
+nano 
+exit
+cd RTR105_2023_V02/
+ls -lta
+exit
+git clone htpps://github.com/tatusmatrix/RTR105_2023_V01
+git clone https://github.com/tatusmatrix/RTR105_2023_V01
+cd RTR105_2023_V01/
+mkdir Class_10
+cd ..
+git clone https://github.com/tatusmatrix/RTR105_2023_V02
+cd RTR105_2023_V02/
+mkdir Class_10
+cd Class_10/
+nano while_char.c
+gcc while_char.c
+./a.out 
+nano while_char.c
+gcc while_char.c
+./a.out 
+nano while_char.c
+gcc while_char.c
+./a.out 
+nano while_char.c
+gcc while_char.c
+./a.out 
+nano while_char.c
+gcc while_char.c
+./a.out 
+nano while_char.c
+gcc while_char.c
+./a.out 
+nano while_char.c
+cp while_char.c while_rand.c 
+nano while_rand.c 
+gcc while_rand.c 
+nano while_rand.c 
+gcc while_rand.c 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+nano while_rand.c 
+gcc while_rand.c 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+nano while_rand.c 
+./a.out 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+nano while_rand.c 
+cp while_rand.c function_V1.c
+nano function_V1.c
+gcc function_V1.c
+./a.out 
+nano function_V1.c
+gcc function_V1.c
+./a.out 
+ls -lt
+cd ..
+ls -lt
+history -a
