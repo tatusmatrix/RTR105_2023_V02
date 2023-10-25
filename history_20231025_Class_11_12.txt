@@ -1,0 +1,193 @@
+VirtualBox --startvm XP
+quartus
+cd
+wget https://raw.githubusercontent.com/MartinsSmirnovs/RTR105/main/class_11_2/main.c
+ls -lt
+nano main.c 
+gcc main.c 
+./a.out 
+gcc main.c 
+./a.out 
+nano main.c 
+gcc main.c 
+nano main.c 
+gcc main.c 
+./a.out 
+nano main.c 
+gcc main.c 
+nano main.c 
+nano main_V2.c
+gcc main_V2.c
+nano main_V2.c
+gcc main_V2.c
+./a.out 
+nano main_V2.c
+gcc main_V2.c
+nano main_V2.c
+ls -lt
+wget https://raw.githubusercontent.com/atrkv/RTR105/main/Class_11_12/str.c
+ls -lt
+gcc str.c 
+./a.out 
+wget https://raw.githubusercontent.com/KeveKeve4/RTR105/main/Class_11/uzd.c
+ls -lt
+gcc uzd.c 
+./a.out 
+ls -lt
+exit
+git clone https://github.com/tatusmatrix/RTR105_2023_V02
+cd RTR105_2023_V02/
+ls -lt
+mkdir Class_11_12
+cd Class_11_12/
+;pwd
+pwd
+touch foo.h
+touch foo.c
+touch main.c
+nano foo.h 
+nano foo.c
+nano main.c 
+ls -lt
+gcc foo.c
+gcc main/c
+gcc main.c 
+gcc -Wall -c foo.c
+gcc -Wall -c main.c
+ls -lt
+cat foo.o 
+ls -lt
+hexdump -C foo.c
+hexdump -C foo.o
+ls -lt
+gcc -o testprogram foo.o main.o
+ls -lt
+./testprogram 
+nano main.c
+nano foo.c
+ls -lt
+gcc -Wall -c foo.c
+gcc -Wall -c main.c
+nano main.c
+gcc -Wall -c main.c
+ls -lt
+gcc -o testprogram foo.o main.o
+./testprogram 
+nano main.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+./testprogram 
+gcc -o -O0 testprogram foo.o main.o
+./testprogram 
+nano foo.c
+ls -lt
+rm -O0
+rm "-O0"
+ls -lt
+rm *0*
+ls -lt
+gcc -Wall -c foo.c
+gcc -o  testprogram foo.o main.o
+./testprogram 
+nano main.c
+gcc -Wall -c main.c
+nano main.c
+gcc -Wall -c main.c
+gcc -o  testprogram foo.o main.o
+./testprogram 
+nano main.c
+nano foo.c
+nano main.c
+./testprogram 
+nano test.c
+gcc -c -Wall test.c
+
+nano test.c
+gcc -c -Wall test.c
+objdump -D test.o
+ls -lt
+rm -O0 
+rm \-O0 
+mkdir test
+mv *.o *.c test\
+mv *.o test/
+mv *.c test/
+ls -lt
+mv *.h test/
+ls -lt
+rm *
+cd ..
+mv ./Class_11_12/test ./
+ls -lt
+ls -lt Class_11_12/
+rm -f Class_11_12/
+rm -rf Class_11_12/
+ls -lt
+mkdir Class_11_12
+cd Class_11_12/
+mv ../test/*.* ./
+ls -lt
+cp foo.c foo.cpp
+gcc -c -Wall foo.cpp
+ls -lt
+gcc -o testprogram  foo.o main.o
+ls -lt
+wget https://raw.githubusercontent.com/tatusmatrix/RTR105_2022_V01/main/Class_15/arrays.c
+ls -lt
+cp arrays.c arrays_V2.c 
+nano arrays_V2.c 
+gcc arrays_V2.c 
+./a.out 
+nano arrays_V2.c 
+gcc arrays_V2.c 
+gcc -Wall arrays_V2.c 
+./a.out 
+nano arrays_V2.c 
+gcc -Wall arrays_V2.c 
+./a.out 
+nano arrays_V2.c 
+nano string.c
+gcc string.c
+nano string.c
+gcc string.c
+nano string.c
+gcc string.c
+ls -lt
+./a.out 
+echo $?
+nano string.c
+gcc string.c
+gcc -Wall string.c
+./a.out 
+echo $?
+nano string.c
+gcc string.c
+./a.out 
+nano string.c
+gcc string.c
+./a.out 
+nano string.c
+gcc string.c
+./a.out 
+nano string.c
+nano main_with_argumnets.c
+gcc main_with_argumnets.c
+nano main_with_argumnets.c
+gcc main_with_argumnets.c
+./a.out 
+mv a.out aaaa.out
+./a.out 
+./aaaa.out 
+./aaaa.out 1
+./aaaa.out 1 2 3
+./aaaa.out 1 2 3 hello
+nano main_with_argumnets.c
+gcc main_with_argumnets.c
+./a.out 
+./a.out 1
+./a.out 1 2 3 4
+./a.out 1 2 3 4 hello
+ls -lt
+cd ..
+ls -lt
+history -a
