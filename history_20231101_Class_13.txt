@@ -1,0 +1,24 @@
+VirtualBox --startvm XP
+quartus
+cd /
+pwd
+touch test.txt
+man touch
+cd
+exit
+ls -lt
+cat myfile.txt 
+nano myfile.txt 
+ls -lt
+cat myfile.txt 
+ls -lt
+nano myfile.txt 
+ls -lt
+cat myfile.txt 
+ls -lt
+cat myfile.txt 
+ls -lt
+cat myfile.txt 
+exit
+./a.out 
+exit
