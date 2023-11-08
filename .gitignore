@@ -6,3 +6,6 @@
 
 # ignore all i files
 *.i
+
+# ignore all swp files
+*.swp
